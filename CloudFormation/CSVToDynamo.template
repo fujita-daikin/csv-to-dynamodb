@@ -34,13 +34,13 @@
                 ],
                 "KeySchema":[
                     {
-                        "AttributeName": "uuid",
+                        "AttributeName": "ReportEntryID",
                         "KeyType": "HASH"
                     }
                 ],
                 "Tags":[
                     {
-                        "Key": "Name",
+                        "Key": "ReportEntryID",
                         "Value": {"Ref" : "DynamoDBTableName"}
                     }
                 ]
